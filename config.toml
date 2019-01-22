@@ -1,0 +1,66 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "Boris Yanovsky"
+theme = "minimal"
+googleAnalytics = ""
+
+[params]
+    author = "Boris Yanovsky"
+    description = "I'm a researcher and a data scientist based in San Francisco. You can find more info about me here, includng links to projects, blog posts about the R language, and other data \"sciency\" content."
+    githubUsername = "#"
+    accent = "#f07900"
+    showBorder = true
+    backgroundColor = "#F1F1F1"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "R"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+    
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:yanovskyb@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/yanovskyb/"
+    name = "github"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://twitter.com/b0risy"
+    name = "twitter"
+    weight = 5
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/yanovskyb/"
+    name = "linkedin"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://stackoverflow.com/users/4547796/rocket1906"
+    name = "stack-overflow"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.facebook.com/boris.yanovsky"
+    name = "facebook"
+    weight = 6
